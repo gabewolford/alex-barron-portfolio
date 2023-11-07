@@ -1,4 +1,12 @@
-<script setup></script>
+<script setup>
+onBeforeMount(() => {
+  document.body.style.backgroundColor = "#EEEEF5";
+});
+
+onBeforeUnmount(() => {
+  document.body.style.backgroundColor = "#FFFFFF";
+});
+</script>
 
 <template>
   <ProjectHeading
