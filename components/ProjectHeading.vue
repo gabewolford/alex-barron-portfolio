@@ -20,7 +20,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="flex flex-col mx-8 lg:mx-32">
+  <section class="flex flex-col lg:mx-32">
     <h1 class="text-4xl lg:text-[56px] my-8 lg:my-16 font-apercu-bold">
       {{ heading }}
     </h1>

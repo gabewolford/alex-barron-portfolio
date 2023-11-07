@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="flex flex-col gap-8 py-8 lg:py-16 mx-8 lg:mx-32">
+  <section class="flex flex-col gap-8 py-8 lg:py-16 lg:mx-32">
     <div class="col-span-full lg:col-start-3 lg:col-span-8">
       <div class="flex flex-col gap-3">
         <h4 class="text-[#716E75] text-center">{{ heading }}</h4>
