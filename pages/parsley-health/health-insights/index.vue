@@ -1,12 +1,13 @@
 <script setup>
 import healthInsightsUserFlow from "/images/parsley-health-insights/health-insights-user-flow.svg";
-import healthInsightsLandingPage from "/images/parsley-health-insights/health-insights-landing-page.svg";
 import healthInsightsSignificantSymptoms from "/images/parsley-health-insights/health-insights-significant-symptoms.svg";
 import healthInsightsPersonalizedResults from "/images/parsley-health-insights/health-insights-personalized-results.svg";
 import healthInsightsSelfLedChallenges from "/images/parsley-health-insights/health-insights-self-led-challenges.svg";
 import healthInsightsCheckingIn from "/images/parsley-health-insights/health-insights-checking-in.svg";
 import healthInsightsDashboard from "/images/parsley-health-insights/health-insights-dashboard.svg";
-import intakeFormVideo from "/images/parsley-health-insights/symptom-intake-form.mp4";
+import intakeFormVideo from "/images/parsley-health-insights/videos/symptom-intake-form.mp4";
+import mobileLandingPage from "/images/parsley-health-insights/videos/mobile-lp.mp4";
+import desktopLandingPage from "/images/parsley-health-insights/videos/desktop-lp.mp4";
 
 definePageMeta({
   layout: "projects",
@@ -54,9 +55,9 @@ const measureSuccessText = [
     text="Introducing Insights service and setting expectations for users was an exercise in content strategy and web design. This page evolved many times with learnings our user analytics and A/B testing."
   />
 
-  <ImageSection
-    :imageUrl="healthInsightsLandingPage"
-    altText="Health Insights landing page"
+  <DoubleVideoSection
+    :videoUrl1="mobileLandingPage"
+    :videoUrl2="desktopLandingPage"
   />
 
   <CustomMobileVideoSection
