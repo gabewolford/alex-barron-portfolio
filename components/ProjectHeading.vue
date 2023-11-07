@@ -20,9 +20,9 @@ defineProps({
 </script>
 
 <template>
-  <section class="grid grid-cols-2 lg:grid-cols-12 gap-8">
-    <div class="col-span-full lg:col-start-3 lg:col-span-8">
-      <h1 class="text-4xl lg:text-[56px] my-8 lg:my-16 font-apercu-bold">
+  <section class="grid grid-cols-2 lg:grid-cols-12">
+    <div class="col-span-full">
+      <h1 class="text-4xl lg:text-[50px] my-8 lg:my-16 font-apercu-bold">
         {{ heading }}
       </h1>
       <div
