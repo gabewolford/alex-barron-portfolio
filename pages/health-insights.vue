@@ -1,5 +1,10 @@
 <script setup></script>
 
 <template>
-  <h1>Health Insights Page</h1>
+  <ProjectHeading
+    heading="Health Insights"
+    client="Parsley Health"
+    role="Lead Product Designer"
+    platform="Web App"
+  />
 </template>

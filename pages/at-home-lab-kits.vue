@@ -1,5 +1,10 @@
 <script setup></script>
 
 <template>
-  <h1>At Home Lab Kits Page</h1>
+  <ProjectHeading
+    heading="At-Home Lab Kits"
+    client="Parsley Health"
+    role="Lead Product Designer"
+    platform="Web App"
+  />
 </template>
