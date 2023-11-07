@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="grid grid-cols-2 lg:grid-cols-12 gap-8 py-8 lg:py-16">
+  <section class="flex flex-col gap-8 py-8 lg:py-16 mx-8 lg:mx-32">
     <div class="col-span-full lg:col-start-3 lg:col-span-8">
       <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 lg:my-16">
         <div class="lg:w-2/3 flex flex-col gap-3">

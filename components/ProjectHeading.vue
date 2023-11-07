@@ -20,26 +20,24 @@ defineProps({
 </script>
 
 <template>
-  <section class="grid grid-cols-2 lg:grid-cols-12">
-    <div class="col-span-full">
-      <h1 class="text-4xl lg:text-[50px] my-8 lg:my-16 font-apercu-bold">
-        {{ heading }}
-      </h1>
-      <div
-        class="flex flex-col lg:flex-row gap-8 lg:gap-16 justify-between pb-8 lg:pb-16"
-      >
-        <div class="flex flex-col gap-3 lg:w-1/3">
-          <h2 class="text-[#716E75]">Client</h2>
-          <h3 class="border-[#D7D4DB] border-t pt-8">{{ client }}</h3>
-        </div>
-        <div class="flex flex-col gap-3 lg:w-1/3">
-          <h2 class="text-[#716E75]">Role</h2>
-          <h3 class="border-[#D7D4DB] border-t pt-8">{{ role }}</h3>
-        </div>
-        <div class="flex flex-col gap-3 lg:w-1/3">
-          <h2 class="text-[#716E75]">Platform</h2>
-          <h3 class="border-[#D7D4DB] border-t pt-8">{{ platform }}</h3>
-        </div>
+  <section class="flex flex-col mx-8 lg:mx-32">
+    <h1 class="text-4xl lg:text-[56px] my-8 lg:my-16 font-apercu-bold">
+      {{ heading }}
+    </h1>
+    <div
+      class="flex flex-col lg:flex-row gap-8 lg:gap-16 justify-between pb-8 lg:pb-16"
+    >
+      <div class="flex flex-col gap-3 lg:w-1/3">
+        <h2 class="text-[#716E75]">Client</h2>
+        <h3 class="border-[#D7D4DB] border-t pt-8">{{ client }}</h3>
+      </div>
+      <div class="flex flex-col gap-3 lg:w-1/3">
+        <h2 class="text-[#716E75]">Role</h2>
+        <h3 class="border-[#D7D4DB] border-t pt-8">{{ role }}</h3>
+      </div>
+      <div class="flex flex-col gap-3 lg:w-1/3">
+        <h2 class="text-[#716E75]">Platform</h2>
+        <h3 class="border-[#D7D4DB] border-t pt-8">{{ platform }}</h3>
       </div>
     </div>
   </section>
