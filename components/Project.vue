@@ -21,13 +21,11 @@ defineProps({
 
 <template>
   <div
-    class="grid grid-cols-2 lg:grid-cols-8 gap-8 border-t border-[#D7D4DB] py-8"
+    class="grid grid-cols-2 lg:grid-cols-8 gap-8 border-t border-[#D7D4DB] py-8 lg:text-2xl"
   >
-    <h3 class="col-start-1 text-[#9790A0] text-2xl">{{ year }}</h3>
-    <h3 class="col-span-5 text-2xl">{{ title }}</h3>
-    <div
-      class="flex lg:justify-end col-span-2 text-[#9790A0] text-right text-2xl"
-    >
+    <h3 class="col-start-1 text-[#9790A0]">{{ year }}</h3>
+    <h3 class="col-span-5">{{ title }}</h3>
+    <div class="flex lg:justify-end col-span-2 text-[#9790A0] text-right">
       <NuxtLink :href="linkTo">
         {{ linkText }}
       </NuxtLink>

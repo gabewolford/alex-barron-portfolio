@@ -2,7 +2,7 @@
 
 <template>
   <div class="flex flex-col gap-4 my-8 lg:my-16">
-    <h4 class="text-lg">Projects</h4>
+    <h4 class="lg:text-lg">Projects</h4>
     <div class="flex flex-col">
       <Project
         year="2023"
