@@ -60,6 +60,21 @@ export default {
         >
           <!-- Close button inside the mobile menu -->
           <NuxtLink @click.native="toggleMobileMenu" to="/">Home</NuxtLink>
+          <NuxtLink @click.native="toggleMobileMenu" to="/morf-health"
+            >Morf Health</NuxtLink
+          >
+          <NuxtLink @click.native="toggleMobileMenu" to="/first-republic"
+            >First Republic</NuxtLink
+          >
+          <NuxtLink @click.native="toggleMobileMenu" to="/health-insights"
+            >Health Insights</NuxtLink
+          >
+          <NuxtLink @click.native="toggleMobileMenu" to="/at-home-lab-kits"
+            >At-Home Lab Kits</NuxtLink
+          >
+          <NuxtLink @click.native="toggleMobileMenu" to="/parsley-health"
+            >Parsley Health</NuxtLink
+          >
         </div>
       </div>
     </nav>
