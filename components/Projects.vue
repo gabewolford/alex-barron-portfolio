@@ -26,7 +26,7 @@
         year="2022"
         title="Parsley Health At-Home Lab Kits"
         linkText="View"
-        linkTo="https://www.figma.com/proto/mu4MnZiUuasdEJDIIu3LGw/Portfolio?page-id=236%3A9202&type=design&node-id=236-9469&viewport=830%2C533%2C0.12&t=vOI1WcAGbCMhzf7H-1&scaling=scale-down-width&mode=design"
+        linkTo="/parsley-health/at-home-lab-kits"
       />
       <Project
         year="2021"
