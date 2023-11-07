@@ -11,7 +11,7 @@ defineProps({
   <h1 class="text-4xl lg:text-[56px] font-apercu-bold lg:leading-[72px]">
     {{ heading }}
   </h1>
-  <p class="my-8 lg:my-16">
+  <p class="py-8 lg:py-16 lg:text-2xl">
     Previously, I was managing the design team at Parsley Health.
     <br />
     <br />
