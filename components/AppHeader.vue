@@ -26,7 +26,7 @@ export default {
 </script>
 
 <template>
-  <header class="grid grid-cols-2 lg:grid-cols-12 mx-8 py-8 gap-8">
+  <header class="grid grid-cols-2 lg:grid-cols-12 mx-8 py-8 lg:py-16 gap-8">
     <nav
       class="col-span-full lg:col-start-3 lg:col-span-8 flex flex-row justify-between items-center"
     >
