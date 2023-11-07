@@ -1,6 +1,6 @@
 <script setup>
-import morfSection1Image from "@/public/images/morf/morf-section-1.svg";
-import morfDesignSystem from "@/public/images/morf/morf-design-system.svg";
+import morfSection1Image from "@/images/morf/morf-section-1.svg";
+import morfDesignSystem from "@/images/morf/morf-design-system.svg";
 
 definePageMeta({
   layout: "projects",
