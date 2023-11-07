@@ -64,7 +64,11 @@ const problemsText = ["TBD"];
     altText="At home labs wellness kit"
   />
 
-  <!-- Custom text section component here -->
+  <CustomTextSection
+    heading="Post-Purchase & Shipping"
+    text="Reducing error risk by preparing users before they receive their test kits in the mail."
+    subText="After running a closed Alpha test we identified the lull between post-purchase and kit activation as a key time for educating users so that they might know what to expect and be able to plan for it."
+  />
 
   <ImageSection
     :imageUrl="atHomeLabsOrderReceived"
