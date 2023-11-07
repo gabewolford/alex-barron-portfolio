@@ -1,6 +1,11 @@
 <script setup>
 import morfSection1Image from "@/images/morf/morf-section-1.svg";
 import morfDesignSystem from "@/images/morf/morf-design-system.svg";
+import morfSourceSetup from "@/images/morf/morf-source-setup.svg";
+import morfReviewSourceData from "@/images/morf/morf-review-source-data.svg";
+import morfProfiles from "@/images/morf/morf-profiles.svg";
+import morfUnifyingPatientProfiles from "@/images/morf/morf-unifying-patient-profiles.svg";
+import morfMonitoringActivity from "@/images/morf/morf-monitoring-activity.svg";
 
 definePageMeta({
   layout: "projects",
@@ -30,17 +35,73 @@ const problems = [
     role="Lead Product Designer"
     platform="Web App"
   />
+
   <ImageSection
     :imageUrl="morfSection1Image"
     altText="Morf data pipeline illustration"
   />
+
   <IntroSection
     introText="Morf Health enables modern healthcare companies to automate their operations, no coding required. The goal for the MVP was to go from zero to one with their self-service experience. Getting customers started with connecting their own source data tools and providing a unifying view of their patient and lead data across all of their tools."
     :problemsText="problems"
   />
+
   <TextSection
     heading="Design System"
-    text="Morf's design approach utilizes minimalism and white space where possible. The product's data dense pages and complex work flows rely on its type system to deliver warmth and character."
+    text="The first step in launching your tech stack in Morf is setting up a source, non-technical customers are guided through the process, step by step."
   />
   <ImageSection :imageUrl="morfDesignSystem" altText="Morf design system" />
+
+  <TextSection
+    heading="Source Setup"
+    text="Morf's design approach utilizes minimalism and white space where possible. The product's data dense pages and complex work flows rely on its type system to deliver warmth and character."
+  />
+  <ImageSection :imageUrl="morfSourceSetup" altText="Morf source setup" />
+
+  <TextSection
+    heading="Reviewing Source Setup"
+    text="Once a source has been setup, customers can review how and make to changes to their incoming data being stored in Morf via mapping to properties and profile lookup configurations."
+  />
+  <ImageSection
+    :imageUrl="morfReviewSourceData"
+    altText="Morf review source data"
+  />
+
+  <TextSection
+    heading="Reviewing Source Setup"
+    text="Once a source has been setup, customers can review how and make to changes to their incoming data being stored in Morf via mapping to properties and profile lookup configurations."
+  />
+  <ImageSection
+    :imageUrl="morfReviewSourceData"
+    altText="Morf review source data"
+  />
+
+  <TextSection
+    heading="Profiles"
+    text="Preview drawers allow customer's quick access to helpful tools like generating a link or copying an ID while parsing through profiles."
+  />
+  <ImageSection :imageUrl="morfProfiles" altText="Morf profiles" />
+
+  <TextSection
+    heading="Unifying Patient Profile"
+    text="Customers can view their patient's data across all of their tools in one unifying profile."
+  />
+  <ImageSection
+    :imageUrl="morfUnifyingPatientProfiles"
+    altText="Morf unifying patient profile"
+  />
+
+  <TextSection
+    heading="Monitoring Activity"
+    text="The Activity page is an important tool for internal users while we continued to iterate. Here they can easily help customers troubleshoot and debug issues."
+  />
+  <ImageSection
+    :imageUrl="morfMonitoringActivity"
+    altText="Morf monitoring activity"
+  />
+
+  <TextSection
+    heading="Next Steps"
+    text="Enable customers to build and manage their own work flows."
+  />
 </template>
