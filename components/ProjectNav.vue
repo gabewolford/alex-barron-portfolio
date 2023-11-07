@@ -26,10 +26,8 @@ export default {
 </script>
 
 <template>
-  <header class="flex mx-8 lg:mx-48 py-8">
-    <nav
-      class="col-span-full lg:col-start-3 lg:col-span-8 flex flex-row justify-between items-center"
-    >
+  <header class="flex flex-row mx-8 lg:mx-48 py-8">
+    <nav class="flex flex-row w-full justify-between items-center">
       <NuxtLink to="/">
         <img src="/images/logo.svg" alt="Logo" />
       </NuxtLink>
