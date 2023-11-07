@@ -1,5 +1,10 @@
 <script setup></script>
 
 <template>
-  <h1>Morf Health Page</h1>
+  <ProjectHeading
+    heading="Morf Health MVP"
+    client="Morf Health"
+    role="Lead Product Designer"
+    platform="Web App"
+  />
 </template>
