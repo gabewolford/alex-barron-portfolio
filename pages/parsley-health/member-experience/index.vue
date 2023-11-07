@@ -6,7 +6,7 @@ definePageMeta({
 
 <template>
   <ProjectHeading
-    heading="Member Experience Page"
+    heading="Parsley Health Member Experience"
     client="Parsley Health"
     role="Lead Product Designer"
     platform="Web App"

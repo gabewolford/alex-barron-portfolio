@@ -32,7 +32,7 @@
         year="2021"
         title="Parsley Health Member Experience"
         linkText="Coming soon"
-        linkTo="/parsley-health"
+        linkTo="/parsley-health/member-experience"
       />
     </div>
   </div>
