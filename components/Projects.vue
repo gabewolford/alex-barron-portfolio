@@ -7,7 +7,7 @@
       <Project
         year="2023"
         title="Morf Health"
-        linkText="Coming soon"
+        linkText="View"
         linkTo="/morf-health"
       />
       <Project
@@ -18,15 +18,15 @@
       />
       <Project
         year="2022"
-        title="Health Insights"
-        linkText="Coming soon"
-        linkTo="/health-insights"
+        title="Parsley Health Insights"
+        linkText="View"
+        linkTo="https://www.figma.com/proto/mu4MnZiUuasdEJDIIu3LGw/Portfolio?page-id=165%3A4101&type=design&node-id=178-11&viewport=686%2C555%2C0.1&t=uSuB9iCPpbKcZOVn-1&scaling=min-zoom&mode=design"
       />
       <Project
         year="2022"
-        title="At-Home Lab Kits"
-        linkText="Coming soon"
-        linkTo="/at-home-lab-kits"
+        title="Parsley Health At-Home Lab Kits"
+        linkText="View"
+        linkTo="https://www.figma.com/proto/mu4MnZiUuasdEJDIIu3LGw/Portfolio?page-id=236%3A9202&type=design&node-id=236-9469&viewport=830%2C533%2C0.12&t=vOI1WcAGbCMhzf7H-1&scaling=scale-down-width&mode=design"
       />
       <Project
         year="2021"
