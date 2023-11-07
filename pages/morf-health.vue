@@ -1,11 +1,11 @@
 <script setup>
-import morfSection1Image from "@/images/morf/morf-section-1.svg";
-import morfDesignSystem from "@/images/morf/morf-design-system.svg";
-import morfSourceSetup from "@/images/morf/morf-source-setup.svg";
-import morfReviewSourceData from "@/images/morf/morf-review-source-data.svg";
-import morfProfiles from "@/images/morf/morf-profiles.svg";
-import morfUnifyingPatientProfiles from "@/images/morf/morf-unifying-patient-profiles.svg";
-import morfMonitoringActivity from "@/images/morf/morf-monitoring-activity.svg";
+import morfSection1Image from "/images/morf/morf-section-1.svg";
+import morfDesignSystem from "/images/morf/morf-design-system.svg";
+import morfSourceSetup from "/images/morf/morf-source-setup.svg";
+import morfReviewSourceData from "/images/morf/morf-review-source-data.svg";
+import morfProfiles from "/images/morf/morf-profiles.svg";
+import morfUnifyingPatientProfiles from "/images/morf/morf-unifying-patient-profiles.svg";
+import morfMonitoringActivity from "/images/morf/morf-monitoring-activity.svg";
 
 definePageMeta({
   layout: "projects",
