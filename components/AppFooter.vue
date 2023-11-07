@@ -2,10 +2,10 @@
 
 <template>
   <footer
-    class="absolute bottom-0 grid grid-cols-2 lg:grid-cols-12 gap-8 px-8 w-full text-center py-8"
+    class="absolute bottom-0 grid grid-cols-2 lg:grid-cols-12 gap-8 px-8 w-full py-8"
   >
     <nav
-      class="col-span-2 lg:col-start-3 lg:col-span-8 flex flex-col lg:flex-row gap-8 items-center justify-between"
+      class="col-span-2 lg:col-start-3 lg:col-span-8 flex flex-col lg:flex-row gap-8 justify-between"
     >
       <div class="flex flex-col lg:flex-row gap-8">
         <a to="mailto:acbarron4@gmail.com" target="_blank">Email</a>
