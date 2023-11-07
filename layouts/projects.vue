@@ -7,5 +7,5 @@
       <slot />
     </div>
   </main>
-  <AppFooter />
+  <ProjectFooter />
 </template>
