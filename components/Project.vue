@@ -25,7 +25,9 @@ defineProps({
   >
     <h3 class="col-start-1 text-[#9790A0] text-2xl">{{ year }}</h3>
     <h3 class="col-span-5 text-2xl">{{ title }}</h3>
-    <div class="flex justify-end col-span-2 text-[#9790A0] text-right text-2xl">
+    <div
+      class="flex lg:justify-end col-span-2 text-[#9790A0] text-right text-2xl"
+    >
       <NuxtLink :href="linkTo">
         {{ linkText }}
       </NuxtLink>
