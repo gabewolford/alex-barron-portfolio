@@ -7,6 +7,8 @@ import morfProfiles from "/images/morf/morf-profiles.svg";
 import morfUnifyingPatientProfiles from "/images/morf/morf-unifying-patient-profiles.svg";
 import morfMonitoringActivity from "/images/morf/morf-monitoring-activity.svg";
 
+const showModal = ref(true);
+
 definePageMeta({
   layout: "projects",
 });
@@ -29,6 +31,7 @@ const problems = [
 </script>
 
 <template>
+  <PasswordModal v-if="showModal" />
   <ProjectHeading
     heading="Morf Health MVP"
     client="Morf Health"
