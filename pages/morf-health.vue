@@ -61,16 +61,7 @@ const problems = [
 
   <TextSection
     heading="Reviewing Source Setup"
-    text="Once a source has been setup, customers can review how and make to changes to their incoming data being stored in Morf via mapping to properties and profile lookup configurations."
-  />
-  <ImageSection
-    :imageUrl="morfReviewSourceData"
-    altText="Morf review source data"
-  />
-
-  <TextSection
-    heading="Reviewing Source Setup"
-    text="Once a source has been setup, customers can review how and make to changes to their incoming data being stored in Morf via mapping to properties and profile lookup configurations."
+    text="Once a source has been setup, customers can review and make to changes to their incoming data being stored in Morf via mapping to properties and profile lookup configurations."
   />
   <ImageSection
     :imageUrl="morfReviewSourceData"
