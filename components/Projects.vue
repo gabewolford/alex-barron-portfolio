@@ -21,9 +21,9 @@
       <Project
         year="2022"
         title="Parsley Health Insights"
-        linkText="Coming soon"
-        linkTo="https://www.figma.com/proto/mu4MnZiUuasdEJDIIu3LGw/Portfolio?page-id=165%3A4101&type=design&node-id=178-11&viewport=686%2C555%2C0.1&t=uSuB9iCPpbKcZOVn-1&scaling=min-zoom&mode=design"
-        isComingSoon="true"
+        linkText="View"
+        linkTo="/parsley-health/health-insights"
+        isComingSoon="false"
       />
       <Project
         year="2022"

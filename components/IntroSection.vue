@@ -9,7 +9,7 @@ defineProps({
     required: true,
   },
   measureSuccessText: {
-    type: String,
+    type: Array,
     required: true,
   },
 });
@@ -42,9 +42,15 @@ defineProps({
           </div>
           <div class="flex flex-col gap-3">
             <h4 class="text-[#716E75]">How we measured success</h4>
-            <p class="text-sm pt-8 border-[#D7D4DB] border-t text-left">
-              {{ measureSuccessText }}
-            </p>
+            <ul class="text-sm pt-8 border-[#D7D4DB] border-t text-left">
+              <li
+                v-for="(measurement, index) in measureSuccessText"
+                :key="index"
+                class="mb-4"
+              >
+                {{ measurement }}
+              </li>
+            </ul>
           </div>
         </div>
       </div>
