@@ -8,6 +8,10 @@ defineProps({
     type: Array,
     required: true,
   },
+  measureSuccessText: {
+    type: String,
+    required: true,
+  },
 });
 </script>
 
@@ -38,7 +42,9 @@ defineProps({
           </div>
           <div class="flex flex-col gap-3">
             <h4 class="text-[#716E75]">How we measured success</h4>
-            <p class="text-sm pt-8 border-[#D7D4DB] border-t text-left">TBD</p>
+            <p class="text-sm pt-8 border-[#D7D4DB] border-t text-left">
+              {{ measureSuccessText }}
+            </p>
           </div>
         </div>
       </div>
