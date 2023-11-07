@@ -12,7 +12,12 @@ definePageMeta({
   layout: "projects",
 });
 
-const problemsText = ["TBD"];
+const problemsText = [
+  "How might convey the value user's would gain from testing with Parsley Health?",
+  "How might we help users prepare and feel safe for the at-home lab draw?",
+  "How might we prevent and reduce the costs created by user errors when completing lab draws?",
+  "How might we continue to engage users and/or upgrade to membership after they receive their results?",
+];
 </script>
 
 <template>
@@ -29,9 +34,8 @@ const problemsText = ["TBD"];
   />
 
   <IntroSection
-    introText="TBD"
+    introText="At Parsley Health the cost of a membership is a major factor preventing people in need of comprehensive care. In the spring of 2021 we set out to launch Parsley Health's first at-home lab kit — a low cost solution designed to help you better understand your health baseline through our lead care team's holistic healthcare expertise."
     :problemsText="problemsText"
-    measureSuccessText="TBD"
   />
 
   <ImageSection
@@ -40,8 +44,8 @@ const problemsText = ["TBD"];
   />
 
   <TextSection
-    heading="Problem"
-    text="How might we provide a prospective member with knowledge about their own health at a low-cost?"
+    heading="Process"
+    text="Our clinical advisors and lab partner where incredibly valuable and insightful collaborative partners through our design process."
   />
 
   <ImageSection

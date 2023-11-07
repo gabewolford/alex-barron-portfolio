@@ -19,11 +19,11 @@ const problemsText = [
   "Provide clear upgrade path for users in need of or looking for more support",
 ];
 
-const measureSuccessText = [
-  "24% Free trial to paid conversion rate Tracking conversion rate from free to paid Insights",
-  ".1% E2E conversion rate from sign up to paid Insight account",
-  "20% lift in conversion to paid memberships from PSI",
-];
+// const measureSuccessText = [
+//   "24% Free trial to paid conversion rate Tracking conversion rate from free to paid Insights",
+//   ".1% E2E conversion rate from sign up to paid Insight account",
+//   "20% lift in conversion to paid memberships from PSI",
+// ];
 </script>
 
 <template>
@@ -37,7 +37,6 @@ const measureSuccessText = [
   <IntroSection
     introText="Parsley Health sought to introduce a care solution for prospects with financial constraints so we partnered with our clinical team to develop a safe, educational, and empowering self-led digital experience. "
     :problemsText="problemsText"
-    :measureSuccessText="measureSuccessText"
   />
 
   <TextSection

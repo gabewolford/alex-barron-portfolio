@@ -29,7 +29,7 @@ const problems = [
   "Provide a canonical view of a patient profile centralizing data across all of their third-party tools.",
 ];
 
-const measureSuccessText = ["TBD"];
+// const measureSuccessText = ["TBD"];
 </script>
 
 <template>
@@ -49,7 +49,6 @@ const measureSuccessText = ["TBD"];
   <IntroSection
     introText="Morf Health enables modern healthcare companies to automate their operations, no coding required. The goal for the MVP was to go from zero to one with their self-service experience. Getting customers started with connecting their own source data tools and providing a unifying view of their patient and lead data across all of their tools."
     :problemsText="problems"
-    :measureSuccessText="measureSuccessText"
   />
 
   <TextSection
