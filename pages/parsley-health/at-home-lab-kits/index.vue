@@ -1,12 +1,12 @@
 <script setup>
-import atHomeLabsSection1 from "/images/parsley-lab-kits/at-home-labs-section-1.svg";
-import atHomeLabsTestimonial from "/images/parsley-lab-kits/at-home-labs-testimonial.svg";
-import atHomeLabsUserFlow from "/images/parsley-lab-kits/at-home-labs-user-flow.svg";
-import atHomeLabsThreeCards from "/images/parsley-lab-kits/at-home-labs-three-cards.svg";
-import atHomeLabsWellnessKit from "/images/parsley-lab-kits/at-home-labs-wellness-kit.svg";
-import atHomeLabsOrderReceived from "/images/parsley-lab-kits/at-home-labs-order-received.svg";
-import atHomeLabsActivationPrototype from "/images/parsley-lab-kits/at-home-labs-activation-prototype.svg";
-import atHomeLabsResults from "/images/parsley-lab-kits/at-home-labs-results.svg";
+import atHomeLabsHero from "/images/parsley-lab-kits/at-home-labs-hero.png";
+import atHomeLabsTestimonial from "/images/parsley-lab-kits/at-home-labs-testimonial.png";
+import atHomeLabsUserFlow from "/images/parsley-lab-kits/at-home-labs-user-flow.png";
+import atHomeLabsThreeCards from "/images/parsley-lab-kits/at-home-labs-three-cards.png";
+import atHomeLabsWellnessKit from "/images/parsley-lab-kits/at-home-labs-wellness-kit.png";
+import atHomeLabsOrderReceived from "/images/parsley-lab-kits/at-home-labs-order-received.png";
+import atHomeLabsActivationPrototype from "/images/parsley-lab-kits/at-home-labs-activation-prototype.png";
+import atHomeLabsResults from "/images/parsley-lab-kits/at-home-labs-results.png";
 
 definePageMeta({
   layout: "projects",
@@ -28,13 +28,10 @@ const problemsText = [
     platform="Web App"
   />
 
-  <ImageSection
-    :imageUrl="atHomeLabsSection1"
-    altText="At home labs overview"
-  />
+  <ImageSection :imageUrl="atHomeLabsHero" altText="At home labs overview" />
 
   <IntroSection
-    introText="At Parsley Health the cost of a membership is a major factor preventing people in need of comprehensive care. In the spring of 2021 we set out to launch Parsley Health's first at-home lab kit — a low cost solution designed to help you better understand your health baseline through our lead care team's holistic healthcare expertise."
+    introText="At Parsley Health, the cost of a membership is a major factor preventing people in need of comprehensive care. In the spring of 2021 we set out to launch Parsley Health's first at-home lab kit — a low cost solution designed to help you better understand your health baseline through our lead care team's holistic healthcare expertise."
     :problemsText="problemsText"
   />
 
