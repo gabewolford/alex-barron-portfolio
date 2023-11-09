@@ -8,6 +8,7 @@ import healthInsightsDashboard from "/images/parsley-health-insights/health-insi
 import intakeFormVideo from "/images/parsley-health-insights/videos/symptom-intake-form.mp4";
 import mobileLandingPage from "/images/parsley-health-insights/videos/mobile-lp.mp4";
 import desktopLandingPage from "/images/parsley-health-insights/videos/desktop-lp.mp4";
+import heroImage from "/images/parsley-health-insights/health-insights-hero.png";
 
 definePageMeta({
   layout: "projects",
@@ -33,6 +34,8 @@ const problemsText = [
     role="Lead Product Designer"
     platform="Mobile Web"
   />
+
+  <ImageSection :imageUrl="heroImage" altText="Health Insights hero" />
 
   <IntroSection
     introText="Parsley Health sought to introduce a care solution for prospects with financial constraints so we partnered with our clinical team to develop a safe, educational, and empowering self-led digital experience. "
