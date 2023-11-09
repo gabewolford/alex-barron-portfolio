@@ -18,7 +18,7 @@ defineProps({
 <template>
   <section class="flex flex-col gap-8 py-8 lg:py-16 lg:mx-32">
     <div class="col-span-full lg:col-start-3 lg:col-span-8">
-      <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 lg:my-16">
+      <div class="flex flex-col lg:flex-row gap-8 lg:gap-16">
         <div class="lg:w-2/3 flex flex-col gap-3">
           <h4 class="text-[#716E75]">Intro</h4>
           <p
