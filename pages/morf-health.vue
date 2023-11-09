@@ -53,13 +53,14 @@ const problems = [
 
   <TextSection
     heading="Design System"
-    text="The first step in launching your tech stack in Morf is setting up a source, non-technical customers are guided through the process, step by step."
+    text="Morf's design approach utilizes minimalism and white space where possible. The product's data dense pages and complex work flows rely on its type system to deliver warmth and character."
   />
+
   <ImageSection :imageUrl="morfDesignSystem" altText="Morf design system" />
 
   <TextSection
     heading="Source Setup"
-    text="Morf's design approach utilizes minimalism and white space where possible. The product's data dense pages and complex work flows rely on its type system to deliver warmth and character."
+    text="The first step in launching your tech stack in Morf is setting up a source, non-technical customers are guided through the process, step by step."
   />
   <ImageSection :imageUrl="morfSourceSetup" altText="Morf source setup" />
 
@@ -67,6 +68,7 @@ const problems = [
     heading="Reviewing Source Setup"
     text="Once a source has been setup, customers can review and make to changes to their incoming data being stored in Morf via mapping to properties and profile lookup configurations."
   />
+
   <ImageSection
     :imageUrl="morfReviewSourceData"
     altText="Morf review source data"
