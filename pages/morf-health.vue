@@ -1,11 +1,11 @@
 <script setup>
-import morfSection1Image from "/images/morf/morf-section-1.svg";
-import morfDesignSystem from "/images/morf/morf-design-system.svg";
-import morfSourceSetup from "/images/morf/morf-source-setup.svg";
-import morfReviewSourceData from "/images/morf/morf-review-source-data.svg";
-import morfProfiles from "/images/morf/morf-profiles.svg";
-import morfUnifyingPatientProfiles from "/images/morf/morf-unifying-patient-profiles.svg";
-import morfMonitoringActivity from "/images/morf/morf-monitoring-activity.svg";
+import morfHero from "/images/morf/morf-hero.png";
+import morfDesignSystem from "/images/morf/morf-design-system.png";
+import morfSourceSetup from "/images/morf/morf-source-setup.png";
+import morfReviewSourceData from "/images/morf/morf-review-source-data.png";
+import morfProfiles from "/images/morf/morf-profiles.png";
+import morfUnifyingPatientProfiles from "/images/morf/morf-unifying-patient-profiles.png";
+import morfMonitoringActivity from "/images/morf/morf-monitoring-activity.png";
 
 const showModal = ref(true);
 
@@ -34,6 +34,7 @@ const problems = [
 
 <template>
   <PasswordModal v-if="showModal" />
+
   <ProjectHeading
     heading="Morf Health MVP"
     client="Morf Health"
@@ -42,7 +43,7 @@ const problems = [
   />
 
   <ImageSection
-    :imageUrl="morfSection1Image"
+    :imageUrl="morfHero"
     altText="Morf data pipeline illustration"
   />
 
