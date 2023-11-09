@@ -63,12 +63,12 @@ export default {
           >
           <NuxtLink
             @click.native="toggleMobileMenu"
-            to="parsley-health/health-insights"
+            to="/parsley-health/health-insights"
             >Health Insights</NuxtLink
           >
           <NuxtLink
             @click.native="toggleMobileMenu"
-            to="parsley-health/at-home-lab-kits"
+            to="/parsley-health/at-home-lab-kits"
             >At-Home Lab Kits</NuxtLink
           >
         </div>
