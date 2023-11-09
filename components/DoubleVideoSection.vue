@@ -15,7 +15,7 @@ defineProps({
   <section class="w-full h-fit my-8 lg:my-16">
     <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
       <div class="lg:w-1/4">
-        <video autoplay muted controls class="rounded-[38px]">
+        <video muted controls class="rounded-[38px]">
           <source :src="videoUrl1" />
         </video>
       </div>
