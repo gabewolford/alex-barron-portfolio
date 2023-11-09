@@ -76,6 +76,11 @@ const problemsText = [
     altText="Health Insights significant symptoms"
   />
 
+  <TextSection
+    heading="Personalized Results"
+    text="We built a modular system to deliver tailored results to each user based on their readiness and symptom reports."
+  />
+
   <ImageSection
     :imageUrl="healthInsightsPersonalizedResults"
     altText="Health Insights personalized results"
@@ -92,7 +97,7 @@ const problemsText = [
   />
 
   <CustomTextSection
-    heading="Checking in"
+    heading="Checking In"
     text="Due to constrained resources we could not implement a native solution like widgets or notifications to reduce the friction of a checkin. To better understand the user value and willingness to complete checkins we implemented a wizard of oz test. "
     subText="Using SMS and human-power we lead 20 users through their chosen two week healthy-habit challenge.  As expected many users dropped off, 45%. The users who completed their challenge indicated that the human-feel to the responses kept them engaged."
   />
