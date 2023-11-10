@@ -6,6 +6,7 @@ import morfReviewSourceData from "/images/morf/morf-review-source-data.png";
 import morfProfiles from "/images/morf/morf-profiles.png";
 import morfUnifyingPatientProfiles from "/images/morf/morf-unifying-patient-profiles.png";
 import morfMonitoringActivity from "/images/morf/morf-monitoring-activity.png";
+import morfGuide from "/images/morf/morf-guide.png";
 
 const showModal = ref(true);
 
@@ -59,10 +60,13 @@ const problems = [
     text="As the sole designer on Morf, I got to shape their design system. My approach utilizes minimalism and white space where possible. The product's data dense pages and complex work flows rely on its type system to deliver warmth and character."
   />
 
+  <ImageSection :imageUrl="morfGuide" altText="Morf guide" />
+
   <TextSection
     heading="Source Setup"
     text="The first step in launching your tech stack in Morf is setting up a source, non-technical customers are guided through the process, step by step."
   />
+
   <ImageSection :imageUrl="morfSourceSetup" altText="Morf source setup" />
 
   <TextSection
