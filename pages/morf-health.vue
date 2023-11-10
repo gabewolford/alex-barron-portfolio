@@ -52,12 +52,12 @@ const problems = [
     :problemsText="problems"
   />
 
+  <ImageSection :imageUrl="morfDesignSystem" altText="Morf design system" />
+
   <TextSection
     heading="Design System"
     text="Morf's design approach utilizes minimalism and white space where possible. The product's data dense pages and complex work flows rely on its type system to deliver warmth and character."
   />
-
-  <ImageSection :imageUrl="morfDesignSystem" altText="Morf design system" />
 
   <TextSection
     heading="Source Setup"
