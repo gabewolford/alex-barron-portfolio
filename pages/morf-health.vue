@@ -48,7 +48,7 @@ const problems = [
   />
 
   <IntroSection
-    introText="Morf Health enables modern healthcare companies to automate their operations, no coding required. The goal for the MVP was to go from zero to one with their self-service experience. Getting customers started with connecting their own source data tools and providing a unifying view of their patient and lead data across all of their tools."
+    introText="Morf Health enables modern healthcare companies to automate their operations, no coding required. My role on this project was to define the UX and Interface Design as we launched the self-service MVP. The scope included getting customers started with connecting their data sources and providing a unifying view of their patient and lead data across all of their tools."
     :problemsText="problems"
   />
 
