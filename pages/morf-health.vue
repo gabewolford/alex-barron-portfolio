@@ -56,7 +56,7 @@ const problems = [
 
   <TextSection
     heading="Design System"
-    text="Morf's design approach utilizes minimalism and white space where possible. The product's data dense pages and complex work flows rely on its type system to deliver warmth and character."
+    text="As the sole designer on Morf, I got to shape their design system. My approach utilizes minimalism and white space where possible. The product's data dense pages and complex work flows rely on its type system to deliver warmth and character."
   />
 
   <TextSection
