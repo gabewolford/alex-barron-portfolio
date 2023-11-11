@@ -1,26 +1,32 @@
 <script>
+import { useRoute } from "vue-router";
+
 export default {
-  data() {
-    return {
-      isMobileMenuOpen: false,
+  setup() {
+    const currentRoute = useRoute();
+    const isMobileMenuOpen = ref(false);
+
+    const toggleMobileMenu = () => {
+      isMobileMenuOpen.value = !isMobileMenuOpen.value;
     };
-  },
-  watch: {
-    isMobileMenuOpen(newValue) {
-      this.toggleBodyScroll(newValue);
-    },
-  },
-  methods: {
-    toggleMobileMenu() {
-      this.isMobileMenuOpen = !this.isMobileMenuOpen;
-    },
-    toggleBodyScroll(isOpen) {
+
+    const toggleBodyScroll = (isOpen) => {
       if (isOpen) {
         document.body.style.overflow = "hidden";
       } else {
         document.body.style.overflow = "auto";
       }
-    },
+    };
+
+    watch(isMobileMenuOpen, (newValue) => {
+      toggleBodyScroll(newValue);
+    });
+
+    return {
+      currentRoute,
+      isMobileMenuOpen,
+      toggleMobileMenu,
+    };
   },
 };
 </script>
@@ -33,6 +39,13 @@ export default {
       <NuxtLink to="/">
         <img src="/images/logo.svg" alt="Logo" />
       </NuxtLink>
+
+      <NuxtLink
+        to="/work"
+        class="hidden md:block underline-on-hover"
+        :class="{ 'active-link': currentRoute.name === 'work' }"
+        >All Work</NuxtLink
+      >
 
       <!-- Mobile menu button (hidden when menu is open) -->
       <div v-if="!isMobileMenuOpen" class="md:hidden">
@@ -60,21 +73,44 @@ export default {
         >
           <!-- Close button inside the mobile menu -->
           <NuxtLink @click.native="toggleMobileMenu" to="/">Home</NuxtLink>
-          <NuxtLink @click.native="toggleMobileMenu" to="/morf-health"
-            >Morf Health</NuxtLink
-          >
-          <NuxtLink
-            @click.native="toggleMobileMenu"
-            to="/parsley-health/health-insights"
-            >Health Insights</NuxtLink
-          >
-          <NuxtLink
-            @click.native="toggleMobileMenu"
-            to="/parsley-health/at-home-lab-kits"
-            >At-Home Lab Kits</NuxtLink
+          <NuxtLink @click.native="toggleMobileMenu" to="/work"
+            >All Work</NuxtLink
           >
         </div>
       </div>
     </nav>
   </header>
 </template>
+
+<style scoped>
+.underline-on-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.underline-on-hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #332c3d;
+  transition: width 0.3s ease;
+}
+
+.underline-on-hover:hover::after {
+  width: 100%;
+}
+
+.active-link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #332c3d;
+}
+</style>

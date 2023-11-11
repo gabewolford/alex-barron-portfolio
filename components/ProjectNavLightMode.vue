@@ -32,6 +32,10 @@ export default {
         <img src="/images/logo.svg" alt="Logo" />
       </NuxtLink>
 
+      <NuxtLink to="/work" class="hidden md:block underline-on-hover"
+        >All Work</NuxtLink
+      >
+
       <!-- Mobile menu button (hidden when menu is open) -->
       <div v-if="!isMobileMenuOpen" class="md:hidden">
         <button @click="toggleMobileMenu">
@@ -58,18 +62,8 @@ export default {
         >
           <!-- Close button inside the mobile menu -->
           <NuxtLink @click.native="toggleMobileMenu" to="/">Home</NuxtLink>
-          <NuxtLink @click.native="toggleMobileMenu" to="/morf-health"
-            >Morf Health</NuxtLink
-          >
-          <NuxtLink
-            @click.native="toggleMobileMenu"
-            to="/parsley-health/health-insights"
-            >Health Insights</NuxtLink
-          >
-          <NuxtLink
-            @click.native="toggleMobileMenu"
-            to="/parsley-health/at-home-lab-kits"
-            >At-Home Lab Kits</NuxtLink
+          <NuxtLink @click.native="toggleMobileMenu" to="/work"
+            >All Work</NuxtLink
           >
         </div>
       </div>
