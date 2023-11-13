@@ -12,12 +12,10 @@ defineProps({
     {{ heading }}
   </h1>
   <p class="py-8 lg:py-16 lg:text-2xl">
-    Previously, I was at Parsley Health where I lead design improvements for the
-    member experience and managed a stellar design team.
-    <br />
-    <br />
-    Currently, I am working with Morf Health, enabling digital healthcare
-    companies to launch their tech stacks and manage patient data with little to
-    no code.
+    As a designer, I like to start with a problem I believe is too complex for
+    myself to solve. I work closely with my product and engineering partners to
+    drive a path through the ambiguity and define valuable solutions. I care
+    deeply about creating work that elevates a user experience through
+    thoughtful interaction and visual design.
   </p>
 </template>
