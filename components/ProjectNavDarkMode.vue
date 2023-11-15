@@ -70,3 +70,36 @@ export default {
     </nav>
   </header>
 </template>
+
+<style scoped>
+.underline-on-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.underline-on-hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.underline-on-hover:hover::after {
+  width: 100%;
+}
+
+.active-link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #332c3d;
+}
+</style>
