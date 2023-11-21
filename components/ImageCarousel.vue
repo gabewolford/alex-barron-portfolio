@@ -20,7 +20,7 @@ const nextSlide = () => {
   }
 };
 
-const slideTexts = [
+const slideText = [
   "Current Complete Care",
   "This is Complete Care without providers",
   "Adding a digital engagement layer at a lower threshold",
@@ -28,10 +28,10 @@ const slideTexts = [
   "A more engaging Complete Care",
 ];
 
-const currentSlideText = ref(slideTexts[currentSlideIndex.value]);
+const currentSlideText = ref(slideText[currentSlideIndex.value]);
 
 watch(() => {
-  currentSlideText.value = slideTexts[currentSlideIndex.value];
+  currentSlideText.value = slideText[currentSlideIndex.value];
 });
 
 const buttonText = computed(() => {
@@ -55,7 +55,10 @@ const buttonText = computed(() => {
 
     <p class="pt-4">{{ currentSlideText }}</p>
 
-    <button @click="nextSlide" class="flex flex-row gap-1 items-center pt-5">
+    <button
+      @click="nextSlide"
+      class="flex flex-row gap-1 items-center pt-5 text-xs"
+    >
       {{ buttonText }}
       <span>
         <svg
