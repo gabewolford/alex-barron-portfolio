@@ -107,7 +107,7 @@ const problemsToSolve = [
     linkToLeft="/parsley-health/health-insights"
     :imageRight="labsPreview"
     textRight="At-Home Labs"
-    linkToRight="/parsley-health/health-insights"
+    linkToRight="/parsley-health/at-home-lab-kits"
   />
   <template></template>
 </template>
