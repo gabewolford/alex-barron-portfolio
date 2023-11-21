@@ -34,7 +34,7 @@ defineProps({
         <h4 class="text-[#716E75] lg:text-2xl lg:leading-[160%]">
           Related Projects
         </h4>
-        <div class="flex flex-col lg:flex-row justify-between">
+        <div class="flex flex-row justify-between">
           <NuxtLink :to="linkToLeft" class="flex flex-col gap-4">
             <img :src="imageLeft" :alt="textRight" class="w-fit h-auto" />
             <p class="underline-on-hover lg:text-2xl w-fit">{{ textLeft }}</p>
