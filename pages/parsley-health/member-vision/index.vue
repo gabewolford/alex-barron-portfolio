@@ -44,7 +44,7 @@ const problemsToSolve = [
     text="In order to define our product strategy we needed to identify our problems to solve, understand the chronic communities perception of Parsley, and know what we were not delivering in our current member experience. I was fortunate to work with my Design Director and a UX Researcher who spearheaded a research plan to gather insights across the entire user journey."
   />
 
-  <ImageSection :imageUrl="slide1" altText="Slide 1" />
+  <ImageCarousel />
 
   <TextSection2
     heading="Framing the problem effectively..."
