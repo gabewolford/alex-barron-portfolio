@@ -35,9 +35,9 @@
       <Project
         year="2015"
         title="Motto Keyboard"
-        linkText="Coming soon"
+        linkText="View"
         linkTo="/motto-keyboard"
-        isComingSoon="true"
+        isComingSoon="false"
       />
       <Project
         year="2014"
