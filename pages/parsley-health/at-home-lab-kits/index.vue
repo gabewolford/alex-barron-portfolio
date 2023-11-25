@@ -8,6 +8,8 @@ import atHomeLabsOrderReceived from "/images/parsley-lab-kits/at-home-labs-order
 import atHomeLabsActivationPrototype from "/images/parsley-lab-kits/at-home-labs-activation-prototype.png";
 import atHomeLabsResults from "/images/parsley-lab-kits/at-home-labs-results.png";
 
+const showModal = ref(true);
+
 definePageMeta({
   layout: "projects",
 });
@@ -21,6 +23,8 @@ const problemsText = [
 </script>
 
 <template>
+  <PasswordModal v-if="showModal" />
+
   <ProjectHeading
     heading="At-Home Lab Kits"
     client="Parsley Health"

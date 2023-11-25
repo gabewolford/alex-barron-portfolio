@@ -29,8 +29,6 @@ const problems = [
   "Enable internal users to troubleshoot and debug customer integrations.",
   "Provide a canonical view of a patient profile centralizing data across all of their third-party tools.",
 ];
-
-// const measureSuccessText = ["TBD"];
 </script>
 
 <template>

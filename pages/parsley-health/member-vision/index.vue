@@ -7,9 +7,10 @@ import proofPoints from "/images/parsley-health-member-vision/proof-points.png";
 import engagement from "/images/parsley-health-member-vision/engagement.png";
 import insightsPreview from "/images/parsley-health-member-vision/insights-preview.png";
 import labsPreview from "/images/parsley-health-member-vision/labs-preview.png";
-import slide1 from "/images/parsley-health-member-vision/Slide1.png";
 import craftingAStory from "/images/parsley-health-member-vision/crafting-a-story.png";
 import considerationAndTrust from "/images/parsley-health-member-vision/consideration-and-trust.png";
+
+const showModal = ref(true);
 
 definePageMeta({
   layout: "projects",
@@ -23,6 +24,8 @@ const problemsToSolve = [
 </script>
 
 <template>
+  <PasswordModal v-if="showModal" />
+
   <ProjectHeading
     heading="Parsley Health Member Vision"
     client="Parsley Health"

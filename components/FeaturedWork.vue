@@ -35,9 +35,9 @@
       <Project
         year="2023"
         title="First Republic Business Banking"
-        linkText="Coming soon"
+        linkText="View"
         linkTo="/first-republic"
-        isComingSoon="true"
+        isComingSoon="false"
       />
     </div>
   </div>
