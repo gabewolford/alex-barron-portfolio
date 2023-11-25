@@ -1,13 +1,8 @@
 <script setup>
-import equinoxHeroImage from "/images/equinox-cycling/equinox-hero.png";
-import equinoxFireUp from "/images/equinox-cycling/equinox-fire-up.png";
-import equinoxLeaderboard from "/images/equinox-cycling/equinox-leaderboard.png";
-import equinoxLeaderboard2 from "/images/equinox-cycling/equinox-leaderboard-2.png";
-import equinoxInClassMode from "/images/equinox-cycling/equinox-in-class-mode.png";
-import equinoxInClassMode2 from "/images/equinox-cycling/equinox-in-class-mode-2.png";
-import equinoxInClassMode3 from "/images/equinox-cycling/equinox-in-class-mode-3.png";
-import equinoxInstructorsApp from "/images/equinox-cycling/equinox-instructors-app.png";
-import equinoxInstructorsApp2 from "/images/equinox-cycling/equinox-instructors-app-2.png";
+import heroImage from "/images/equinox-member-experience/hero.png";
+import section2Image from "/images/equinox-member-experience/section2.png";
+import section3Image from "/images/equinox-member-experience/section3.png";
+import section4Image from "/images/equinox-member-experience/section4.png";
 
 definePageMeta({
   layout: "projects",
@@ -29,6 +24,26 @@ onBeforeUnmount(() => {
     heading="Equinox Member Experience"
     client="Equinox"
     role="Junior Visual Designer"
-    platform="Experiential, Tablet & Mobile Companion Apps"
+    platform="Web & Mobile App"
   />
+
+  <ImageSection :imageUrl="heroImage" alt-text="hero preview" />
+
+  <TextSection
+    heading="Member Web Experience"
+    text="Track progress, find events, and more in the member portal."
+  />
+
+  <ImageSection :imageUrl="section2Image" alt-text="member portal" />
+
+  <TextSection
+    heading="Mobile App"
+    text="Members are able to set their bike preferences so their bike is ready for them when they arrive."
+  />
+
+  <ImageSection :imageUrl="section3Image" alt-text="bike preferences" />
+
+  <TextSection heading="App Experience" text="Booking personalized training." />
+
+  <ImageSection :imageUrl="section4Image" alt-text="personalized training" />
 </template>

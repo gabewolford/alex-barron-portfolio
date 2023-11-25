@@ -49,9 +49,9 @@
       <Project
         year="2014"
         title="Equinox Member Experience"
-        linkText="Coming soon"
+        linkText="View"
         linkTo="/equinox/member-experience"
-        isComingSoon="true"
+        isComingSoon="false"
       />
     </div>
   </div>
