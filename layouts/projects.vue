@@ -1,11 +1,12 @@
 <script setup>
+import "animate.css";
 import { useRoute } from "vue-router";
 
 const route = useRoute();
 </script>
 
 <template>
-  <div>
+  <div class="animate__animated animate__fadeIn animate__slow">
     <template
       v-if="
         route.path === '/equinox/cycling' ||

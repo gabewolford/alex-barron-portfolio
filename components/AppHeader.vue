@@ -1,4 +1,6 @@
 <script>
+import "animate.css";
+
 import { useRoute } from "vue-router";
 
 export default {
@@ -66,7 +68,8 @@ export default {
       <!-- Mobile navigation links (full-screen overlay) -->
       <div
         v-if="isMobileMenuOpen"
-        class="md:hidden fixed inset-0 bg-[#332c3d] bg-opacity-95 z-40 text-white"
+        class="md:hidden fixed inset-0 bg-[#332c3d] bg-opacity-95 z-40 text-white animate__animated"
+        :class="{ animate__slideInDown: isMobileMenuOpen }"
       >
         <div
           class="flex flex-col h-full justify-center space-y-12 items-center"
