@@ -1,36 +1,26 @@
-<script>
+<script setup>
 import "animate.css";
-
+import { ref, watchEffect } from "vue";
 import { useRoute } from "vue-router";
 
-export default {
-  setup() {
-    const currentRoute = useRoute();
-    const isMobileMenuOpen = ref(false);
+const currentRoute = useRoute();
+const isMobileMenuOpen = ref(false);
 
-    const toggleMobileMenu = () => {
-      isMobileMenuOpen.value = !isMobileMenuOpen.value;
-    };
-
-    const toggleBodyScroll = (isOpen) => {
-      if (isOpen) {
-        document.body.style.overflow = "hidden";
-      } else {
-        document.body.style.overflow = "auto";
-      }
-    };
-
-    watch(isMobileMenuOpen, (newValue) => {
-      toggleBodyScroll(newValue);
-    });
-
-    return {
-      currentRoute,
-      isMobileMenuOpen,
-      toggleMobileMenu,
-    };
-  },
+const toggleMobileMenu = () => {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value;
 };
+
+const toggleBodyScroll = (isOpen) => {
+  if (isOpen) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+  }
+};
+
+watchEffect(isMobileMenuOpen, (newValue) => {
+  toggleBodyScroll(newValue);
+});
 </script>
 
 <template>
