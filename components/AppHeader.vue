@@ -60,7 +60,8 @@ export default {
       <button
         v-if="isMobileMenuOpen"
         @click="toggleMobileMenu"
-        class="md:hidden absolute top-9 right-8 z-50 text-white"
+        class="md:hidden absolute top-9 right-8 z-50 text-white animate__animated"
+        :class="{ animate__rotateIn: isMobileMenuOpen }"
       >
         <img src="/images/close-icon.svg" alt="Close" />
       </button>

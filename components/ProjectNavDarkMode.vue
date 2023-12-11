@@ -1,4 +1,6 @@
 <script>
+import "animate.css";
+
 export default {
   data() {
     return {
@@ -47,7 +49,8 @@ export default {
       <button
         v-if="isMobileMenuOpen"
         @click="toggleMobileMenu"
-        class="md:hidden absolute top-9 right-8 z-50 text-white"
+        class="md:hidden absolute top-9 right-8 z-50 text-white animate__animated"
+        :class="{ animate__rotateIn: isMobileMenuOpen }"
       >
         <img src="/images/close-icon.svg" alt="Close" />
       </button>
@@ -55,7 +58,8 @@ export default {
       <!-- Mobile navigation links (full-screen overlay) -->
       <div
         v-if="isMobileMenuOpen"
-        class="md:hidden fixed inset-0 bg-[#332c3d] bg-opacity-95 z-40 text-white"
+        class="md:hidden fixed inset-0 bg-[#332c3d] bg-opacity-95 z-40 text-white animate__animated"
+        :class="{ animate__slideInDown: isMobileMenuOpen }"
       >
         <div
           class="flex flex-col h-full justify-center space-y-12 items-center"
