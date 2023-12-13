@@ -28,7 +28,11 @@ defineProps({
 </script>
 
 <template>
-  <section class="flex flex-col lg:flex-row gap-8 py-8 lg:py-16 lg:mx-32">
+  <section
+    data-aos="fade-up"
+    data-aos-duration="800"
+    class="flex flex-col lg:flex-row gap-8 py-8 lg:py-16 lg:mx-32"
+  >
     <div class="flex flex-col gap-8 justify-center lg:w-1/2 lg:px-16">
       <h3 class="text-2xl">{{ heading }}</h3>
       <div class="flex flex-col gap-3">

@@ -16,7 +16,7 @@ const submitPassword = () => {
 <template>
   <div
     v-if="showModal"
-    class="fixed top-0 left-0 w-full h-full bg-black/70 backdrop-blur flex items-center justify-center overflow-hidden"
+    class="fixed top-0 left-0 w-full h-full bg-black/70 backdrop-blur flex items-center justify-center overflow-hidden z-50"
   >
     <div class="rounded-lg bg-white p-5 m-10">
       <div class="flex flex-col gap-4 justify-center">

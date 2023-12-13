@@ -32,7 +32,11 @@ defineProps({
 </script>
 
 <template>
-  <section class="w-full h-fit my-8 lg:my-16">
+  <section
+    data-aos="fade-up"
+    data-aos-duration="800"
+    class="w-full h-fit my-8 lg:my-16"
+  >
     <div class="flex flex-col lg:flex-row gap-8 lg:gap-16">
       <div class="flex flex-col gap-8 lg:gap-16 w-full lg:w-1/3">
         <h2 class="text-xl lg:text-[56px]">{{ heading }}</h2>

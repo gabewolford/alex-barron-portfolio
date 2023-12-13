@@ -12,7 +12,11 @@ defineProps({
 </script>
 
 <template>
-  <section class="w-full h-fit my-8 lg:my-16">
+  <section
+    data-aos="fade-up"
+    data-aos-duration="800"
+    class="w-full h-fit my-8 lg:my-16"
+  >
     <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
       <div class="lg:w-1/4">
         <video muted controls autoplay class="rounded-[38px]">

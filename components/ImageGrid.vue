@@ -36,7 +36,11 @@ defineProps({
 </script>
 
 <template>
-  <section class="w-full h-fit my-8 lg:my-16">
+  <section
+    data-aos="fade-up"
+    data-aos-duration="800"
+    class="w-full h-fit my-8 lg:my-16"
+  >
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16">
       <div class="flex flex-col gap-4 order-1 md:order-1">
         <img :src="imageUrl1" :alt="caption1" />

@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, computed } from "vue";
+import { ref, watchEffect, computed } from "vue";
 
 const slides = [
   "/images/parsley-health-member-vision/Slide1.png",
@@ -30,7 +30,7 @@ const slideText = [
 
 const currentSlideText = ref(slideText[currentSlideIndex.value]);
 
-watch(() => {
+watchEffect(() => {
   currentSlideText.value = slideText[currentSlideIndex.value];
 });
 
@@ -40,7 +40,11 @@ const buttonText = computed(() => {
 </script>
 
 <template>
-  <section class="w-full h-fit my-8 lg:my-16">
+  <section
+    data-aos="fade-up"
+    data-aos-duration="800"
+    class="w-full h-fit my-8 lg:my-16"
+  >
     <div class="flex flex-row gap-1">
       <div
         v-for="(slide, index) in slides"
