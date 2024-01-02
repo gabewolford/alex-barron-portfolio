@@ -2,13 +2,14 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
-
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-
-  modules: ["nuxt-aos"],
+  modules: ["nuxt-aos", "nuxt-simple-sitemap"],
+  site: {
+    url: "https://alexbarron.site",
+  },
 });
