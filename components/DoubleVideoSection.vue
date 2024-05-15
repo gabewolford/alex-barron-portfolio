@@ -19,12 +19,18 @@ defineProps({
   >
     <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
       <div class="lg:w-1/4">
-        <video muted controls autoplay class="rounded-[38px]">
+        <video
+          muted
+          controls
+          autoplay
+          class="rounded-[38px]"
+          playsinline="true"
+        >
           <source :src="videoUrl1" />
         </video>
       </div>
       <div class="lg:w-3/4 object-contain">
-        <video muted controls class="rounded-[38px]">
+        <video muted controls class="rounded-[38px]" playsinline="true">
           <source :src="videoUrl2" />
         </video>
       </div>

@@ -45,7 +45,7 @@ defineProps({
       </div>
     </div>
     <div class="flex lg:w-1/2 justify-center">
-      <video muted controls autoplay class="rounded-[38px]">
+      <video muted controls autoplay playsinline="true" class="rounded-[38px]">
         <source :src="videoUrl" />
       </video>
     </div>
